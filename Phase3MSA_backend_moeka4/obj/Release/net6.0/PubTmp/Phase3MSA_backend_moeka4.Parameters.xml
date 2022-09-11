@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="pizza-msaphase3" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Moeka\ Nakane\\source\\repos\\Phase3MSA_backend_moeka4\\Phase3MSA_backend_moeka4\\obj\\Release\\net6\.0\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="Phase3MSA_backend_moeka4.Data.ApiContext" description="" value="Server=tcp:pizza-msaphase3.database.windows.net,1433;Initial Catalog=pizzaDb;Persist Security Info=False;User ID=moeka;Password=Kei092711;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\Users\\Moeka\ Nakane\\source\\repos\\Phase3MSA_backend_moeka4\\Phase3MSA_backend_moeka4\\obj\\Release\\net6\.0\\PubTmp\\EFSQLScripts\\Phase3MSA_backend_moeka4\.Data\.ApiContext\.sql$" />
+  </parameter>
+</parameters>
