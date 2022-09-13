@@ -717,6 +717,30 @@
             "rid": "win"
           }
         }
+      },
+      "PizzaApi.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/PizzaApi.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PizzaApi.Domain.dll": {}
+        }
+      },
+      "PizzaApi.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.8",
+          "PizzaApi.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PizzaApi.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PizzaApi.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -2077,6 +2101,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "PizzaApi.Domain/1.0.0": {
+      "type": "project",
+      "path": "../PizzaApi.Domain/PizzaApi.Domain.csproj",
+      "msbuildProject": "../PizzaApi.Domain/PizzaApi.Domain.csproj"
+    },
+    "PizzaApi.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../PizzaApi.Infrastructure/PizzaApi.Infrastructure.csproj",
+      "msbuildProject": "../PizzaApi.Infrastructure/PizzaApi.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -2085,6 +2119,7 @@
       "Microsoft.EntityFrameworkCore.InMemory >= 6.0.8",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.8",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.8",
+      "PizzaApi.Infrastructure >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -2094,9 +2129,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Moeka Nakane\\source\\repos\\Phase3MSA_backend_moeka4\\Phase3MSA_backend_moeka4\\Phase3MSA_backend_moeka4.csproj",
-      "projectName": "Phase3MSA_backend_moeka4",
-      "projectPath": "C:\\Users\\Moeka Nakane\\source\\repos\\Phase3MSA_backend_moeka4\\Phase3MSA_backend_moeka4\\Phase3MSA_backend_moeka4.csproj",
+      "projectUniqueName": "C:\\Users\\Moeka Nakane\\source\\repos\\Phase3MSA_backend_moeka4\\Phase3MSA_backend_moeka4\\PizzaApi.csproj",
+      "projectName": "PizzaApi",
+      "projectPath": "C:\\Users\\Moeka Nakane\\source\\repos\\Phase3MSA_backend_moeka4\\Phase3MSA_backend_moeka4\\PizzaApi.csproj",
       "packagesPath": "C:\\Users\\Moeka Nakane\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Moeka Nakane\\source\\repos\\Phase3MSA_backend_moeka4\\Phase3MSA_backend_moeka4\\obj\\",
       "projectStyle": "PackageReference",
@@ -2114,7 +2149,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Moeka Nakane\\source\\repos\\Phase3MSA_backend_moeka4\\PizzaApi.Infrastructure\\PizzaApi.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Moeka Nakane\\source\\repos\\Phase3MSA_backend_moeka4\\PizzaApi.Infrastructure\\PizzaApi.Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

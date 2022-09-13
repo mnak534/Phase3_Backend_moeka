@@ -1,0 +1,15 @@
+C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\PizzaApi.Infrastructure\bin\Debug\net6.0\PizzaApi.Infrastructure.deps.json
+C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\PizzaApi.Infrastructure\bin\Debug\net6.0\PizzaApi.Infrastructure.dll
+C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\PizzaApi.Infrastructure\bin\Debug\net6.0\PizzaApi.Infrastructure.pdb
+C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\PizzaApi.Infrastructure\bin\Debug\net6.0\PizzaApi.Domain.dll
+C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\PizzaApi.Infrastructure\bin\Debug\net6.0\PizzaApi.Domain.pdb
+C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\PizzaApi.Infrastructure\obj\Debug\net6.0\PizzaApi.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\PizzaApi.Infrastructure\obj\Debug\net6.0\PizzaApi.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\PizzaApi.Infrastructure\obj\Debug\net6.0\PizzaApi.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\PizzaApi.Infrastructure\obj\Debug\net6.0\PizzaApi.Infrastructure.AssemblyInfo.cs
+C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\PizzaApi.Infrastructure\obj\Debug\net6.0\PizzaApi.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\PizzaApi.Infrastructure\obj\Debug\net6.0\PizzaApi.Infrastructure.csproj.CopyComplete
+C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\PizzaApi.Infrastructure\obj\Debug\net6.0\PizzaApi.Infrastructure.dll
+C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\PizzaApi.Infrastructure\obj\Debug\net6.0\refint\PizzaApi.Infrastructure.dll
+C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\PizzaApi.Infrastructure\obj\Debug\net6.0\PizzaApi.Infrastructure.pdb
+C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\PizzaApi.Infrastructure\obj\Debug\net6.0\ref\PizzaApi.Infrastructure.dll
