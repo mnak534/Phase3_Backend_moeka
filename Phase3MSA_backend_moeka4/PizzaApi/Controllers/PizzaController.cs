@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Phase3MSA_backend_moeka4.Models;
-using Phase3MSA_backend_moeka4.Data;
+using Phase3MSA_backend_moeka4.Domain;
+using Phase3MSA_backend_moeka4.Service.Repo;
 using Microsoft.EntityFrameworkCore;
 
-namespace Phase3MSA_backend_moeka4.Controllers
+namespace Phase3MSA_backend_moeka4.PizzaApi.Controllers
 {
     [Route("api/[controller]/[action]")]
     [ApiController]

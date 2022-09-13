@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using Phase3MSA_backend_moeka4.Data;
+using Phase3MSA_backend_moeka4.Service.Repo;
 
 var builder = WebApplication.CreateBuilder(args);
 

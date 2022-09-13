@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Phase3MSA_backend_moeka4.Models;
+using Phase3MSA_backend_moeka4.Domain;
 
-namespace Phase3MSA_backend_moeka4.Data
+namespace Phase3MSA_backend_moeka4.Service.Repo
 { 
     public class ApiContext : DbContext
     {

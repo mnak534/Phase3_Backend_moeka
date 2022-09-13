@@ -1,4 +1,4 @@
-﻿namespace Phase3MSA_backend_moeka4.Models
+﻿namespace Phase3MSA_backend_moeka4.Domain
 {
     using System.ComponentModel.DataAnnotations;
     using System.ComponentModel.DataAnnotations.Schema;
