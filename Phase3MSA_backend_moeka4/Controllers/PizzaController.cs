@@ -23,7 +23,8 @@ namespace PizzaApi.Controllers
         {
             _context.PizzaMenu.Add(pizza);
             await _context.SaveChangesAsync();
-            return pizza;
+
+            return CreatedAtAction("Get", new { id = pizza.Id }, pizza);
         }
 
         // Put
@@ -33,7 +34,7 @@ namespace PizzaApi.Controllers
             var pizzaInDb = await _context.PizzaMenu.FirstOrDefaultAsync(p => p.Id == pizza.Id);
             if (pizzaInDb == null)
             {
-                return new JsonResult(NotFound());
+                return NotFound();
             }
 
             _context.Entry(pizzaInDb).State = EntityState.Modified;
@@ -50,7 +51,7 @@ namespace PizzaApi.Controllers
                 throw;
             }
 
-            return Ok(pizza);
+            return NoContent();
         }
 
 

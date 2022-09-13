@@ -60,6 +60,31 @@ public class PizzagControllerTest
     }
 
     [Test]
+    public void TestPost()
+    {
+        var options = new DbContextOptionsBuilder<ApiContext>().UseInMemoryDatabase("TestPost").Options;
+        var context = new ApiContext(options);
+
+        context.PizzaMenu.AddRange(pizzas);
+        context.SaveChanges();
+        _controller = Substitute.For<PizzaController>(context);
+
+        Pizza pizzaToPost = new Pizza
+        {
+            Id = 0,
+            Name = "mushroom4",
+            IsVegan = false
+        };
+
+        _controller.Create(pizzaToPost);
+
+        var result = _controller.Get(4);
+
+        Pizza resultPizza = result.Result.Value;
+        resultPizza.Should().BeEquivalentTo(pizzaToPost);
+    }
+
+    [Test]
     public void TestPut()
     {
         var options = new DbContextOptionsBuilder<ApiContext>().UseInMemoryDatabase("TestPut").Options;
@@ -67,49 +92,22 @@ public class PizzagControllerTest
 
         context.PizzaMenu.AddRange(pizzas);
         context.SaveChanges();
+
         _controller = Substitute.For<PizzaController>(context);
 
         Pizza pizzaToPut = new Pizza
         {
-            Id = 0,
-            Name = "mushroom4",
-            IsVegan = false
-        };
-
-        _controller.Create(pizzaToPut);
-
-        var result = _controller.Get(4);
-
-        Pizza resultPizza = result.Result.Value;
-        resultPizza.Should().BeEquivalentTo(pizzaToPut);
-    }
-
-    [Test]
-    public void TestPost()
-    {
-        var options = new DbContextOptionsBuilder<ApiContext>().UseInMemoryDatabase("TestPostHotelBooking").Options;
-
-        var context = new ApiContext(options);
-
-        context.PizzaMenu.AddRange(pizzas);
-        context.SaveChanges();
-
-        _controller = Substitute.For<PizzaController>(context);
-
-        Pizza pizzaToPost = new Pizza
-        {
-            Id = 4,
+            Id = 1,
             Name = "Super Mushroom",
             IsVegan = true
         };
 
-        _controller.Edit(pizzaToPost);
+        _controller.Edit(pizzaToPut);
 
         var result = _controller.Get(1);
         result.Result.Value.Id.Should().Be(1);
         result.Result.Value.Name.Should().Be("Super Mushroom");
         result.Result.Value.IsVegan.Should().Be(true);
-
     }
 
     [Test]
@@ -123,17 +121,10 @@ public class PizzagControllerTest
 
         _controller = Substitute.For<PizzaController>(context);
 
-        _controller.Delete(4);
+        _controller.Delete(1);
 
         List<Pizza> shouldBe = new List<Pizza>
         {
-            new Pizza
-            {
-                Id = 1,
-                Name = "mushroom",
-                IsVegan = false
-
-            },
             new Pizza
             {
                 Id = 2,
