@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Phase3MSA_backend_moeka4.Models;
 using Phase3MSA_backend_moeka4.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace Phase3MSA_backend_moeka4.Controllers
 {
@@ -16,59 +17,84 @@ namespace Phase3MSA_backend_moeka4.Controllers
             _context = context;
         }
 
-        // Create or Edit
+        // Post
         [HttpPost]
-        public JsonResult CreateEdit(Pizza pizza)
+        public async Task<ActionResult<Pizza>> Create(Pizza pizza)
         {
-            if(pizza.Id == 0)
-            {
-                _context.PizzaMenu.Add(pizza);
-            }
-            else
-            {
-                var pizzaInDb = _context.PizzaMenu.Find(pizza.Id);
-                if (pizzaInDb == null)
-                    return new JsonResult(NotFound());
-                pizzaInDb = pizza;
-            }
-
-            _context.SaveChanges();
-            return new JsonResult(Ok(pizza));
+            _context.PizzaMenu.Add(pizza);
+            await _context.SaveChangesAsync();
+            return pizza;
         }
 
-        // Get
-        [HttpGet]
-        public JsonResult Get(int id)
+        // Put
+        [HttpPut]
+        public async Task<ActionResult<Pizza>> Edit(Pizza pizza)
         {
-            var result = _context.PizzaMenu.Find(id);
+            var pizzaInDb = await _context.PizzaMenu.FirstOrDefaultAsync(p => p.Id == pizza.Id);
+            if (pizzaInDb == null)
+            {
+                return new JsonResult(NotFound());
+            }
+
+            _context.Entry(pizzaInDb).State = EntityState.Modified;
+
+            pizzaInDb.Name = pizza.Name;
+            pizzaInDb.IsVegan = pizza.IsVegan;
+
+            try
+            {
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                throw;
+            }
+
+            return Ok(pizza);
+        }
+
+
+        // Get
+        [HttpGet("{id}")]
+        public async Task<ActionResult<Pizza>> Get(int id)
+        {
+            var result = await _context.PizzaMenu.FindAsync(id);
 
             if (result == null)
-                return new JsonResult(NotFound());
+                return NotFound();
 
-            return new JsonResult(Ok(result));
+            return result;
         }
 
         // Delete
-        [HttpDelete]
-        public JsonResult Delete(int id)
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Delete(int id)
         {
-            var result = _context.PizzaMenu.Find(id);
+            if (_context.PizzaMenu == null)
+            {
+                return NotFound();
+            }
+            var result = await _context.PizzaMenu.FindAsync(id);
             if (result == null)
-                return new JsonResult(NotFound());
+            {
+                return NotFound();
+            }
 
             _context.PizzaMenu.Remove(result);
-            _context.SaveChanges();
+            await _context.SaveChangesAsync();
 
-            return new JsonResult(NoContent());
+            return NoContent();
         }
 
         // Get all
         [HttpGet]
-        public JsonResult GetAll()
+        public async Task<ActionResult<IEnumerable<Pizza>>> GetAll()
         {
-            var result = _context.PizzaMenu.ToList();
-
-            return new JsonResult(Ok(result));
+            if (_context.PizzaMenu == null)
+            {
+                return NotFound();
+            }
+            return await _context.PizzaMenu.ToListAsync();
         }
     }
 }
