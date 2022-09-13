@@ -5,11 +5,13 @@ VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PizzaApi", "Phase3MSA_backend_moeka4\PizzaApi.csproj", "{3C52552F-C3A4-413D-BC46-B866870DF4AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaApi.Domain", "PizzaApi.Domain\PizzaApi.Domain.csproj", "{C58F92C0-0263-472B-A265-6C4BF3D1F364}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PizzaApi.Domain", "PizzaApi.Domain\PizzaApi.Domain.csproj", "{C58F92C0-0263-472B-A265-6C4BF3D1F364}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaApi.Services", "PizzaApi.Services\PizzaApi.Services.csproj", "{5ABDC4A2-E21F-4C22-836C-2A78A2849C54}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PizzaApi.Services", "PizzaApi.Services\PizzaApi.Services.csproj", "{5ABDC4A2-E21F-4C22-836C-2A78A2849C54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaApi.Infrastructure", "PizzaApi.Infrastructure\PizzaApi.Infrastructure.csproj", "{7D2E35F7-B8E4-47B7-B042-D7F61CC4805D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PizzaApi.Infrastructure", "PizzaApi.Infrastructure\PizzaApi.Infrastructure.csproj", "{7D2E35F7-B8E4-47B7-B042-D7F61CC4805D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaApi.UnitTests", "PizzaApi.UnitTests\PizzaApi.UnitTests.csproj", "{31789E4B-27DF-4BE1-86E2-B9D5C3A067D1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{7D2E35F7-B8E4-47B7-B042-D7F61CC4805D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D2E35F7-B8E4-47B7-B042-D7F61CC4805D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D2E35F7-B8E4-47B7-B042-D7F61CC4805D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31789E4B-27DF-4BE1-86E2-B9D5C3A067D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31789E4B-27DF-4BE1-86E2-B9D5C3A067D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31789E4B-27DF-4BE1-86E2-B9D5C3A067D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31789E4B-27DF-4BE1-86E2-B9D5C3A067D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

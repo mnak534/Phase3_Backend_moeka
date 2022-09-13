@@ -1,0 +1,12 @@
+C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\PizzaApi.Services\bin\Debug\net6.0\PizzaApi.Services.deps.json
+C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\PizzaApi.Services\bin\Debug\net6.0\PizzaApi.Services.dll
+C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\PizzaApi.Services\bin\Debug\net6.0\PizzaApi.Services.pdb
+C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\PizzaApi.Services\obj\Debug\net6.0\PizzaApi.Services.csproj.AssemblyReference.cache
+C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\PizzaApi.Services\obj\Debug\net6.0\PizzaApi.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\PizzaApi.Services\obj\Debug\net6.0\PizzaApi.Services.AssemblyInfoInputs.cache
+C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\PizzaApi.Services\obj\Debug\net6.0\PizzaApi.Services.AssemblyInfo.cs
+C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\PizzaApi.Services\obj\Debug\net6.0\PizzaApi.Services.csproj.CoreCompileInputs.cache
+C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\PizzaApi.Services\obj\Debug\net6.0\PizzaApi.Services.dll
+C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\PizzaApi.Services\obj\Debug\net6.0\refint\PizzaApi.Services.dll
+C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\PizzaApi.Services\obj\Debug\net6.0\PizzaApi.Services.pdb
+C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\PizzaApi.Services\obj\Debug\net6.0\ref\PizzaApi.Services.dll
