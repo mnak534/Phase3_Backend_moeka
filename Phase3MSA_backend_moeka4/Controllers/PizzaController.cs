@@ -69,7 +69,7 @@ namespace PizzaApi.Controllers
                 throw;
             }
 
-            return NoContent();
+            return CreatedAtAction("Get", new { id = pizza.Id }, pizza);
         }
 
 
