@@ -6,7 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddDbContext<ApiContext>
-    (opt => opt.UseSqlServer(builder.Configuration.GetConnectionString("PizzaContext")
+    (opt => opt.UseSqlServer(builder.Configuration.GetConnectionString("Server=tcp:pizza-msaphase3.database.windows.net,1433;Initial Catalog=pizzaDb;Persist Security Info=False;User ID=moeka;Password=Kei092711;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;")
     ?? throw new InvalidOperationException("Connection string 'PizzaContext' not found.")));
 
 builder.Services.AddControllers();
