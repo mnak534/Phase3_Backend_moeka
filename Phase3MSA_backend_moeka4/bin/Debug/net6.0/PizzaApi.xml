@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PizzaApi</name>
+    </assembly>
+    <members>
+        <member name="M:PizzaApi.Controllers.PizzaController.Create(PizzaApi.Domain.Models.Pizza)">
+            <summary>
+            Create a new pizza on the menu
+            </summary>
+            <param name="pizza">A pizza to add to the menu (Please enter 0 for the ID)</param>
+            <returns></returns>
+            <response code="201">Pizza created</response>
+        </member>
+        <member name="M:PizzaApi.Controllers.PizzaController.Edit(PizzaApi.Domain.Models.Pizza)">
+            <summary>
+            Edit a pizza that is already on the menu
+            </summary>
+            <param name="pizza">Pizza to be modified (ID must stay the same)</param>
+            <returns></returns>
+            <response code="201">Pizza modified</response>
+        </member>
+        <member name="M:PizzaApi.Controllers.PizzaController.Get(System.Int32)">
+            <summary>
+            Find a pizza
+            </summary>
+            <param name="id">ID of the pizza to find</param>
+            <returns></returns>
+        </member>
+        <member name="M:PizzaApi.Controllers.PizzaController.Delete(System.Int32)">
+            <summary>
+            Remove a pizza from the menu
+            </summary>
+            <param name="id">ID of the pizza to delete</param>
+            <returns></returns>
+            <response code="204">Product successfully deleted</response>
+        </member>
+        <member name="M:PizzaApi.Controllers.PizzaController.GetAll">
+            <summary>
+            Get a list of all the pizzas on the menu
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

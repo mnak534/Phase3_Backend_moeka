@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using PizzaApi.Infrastructure.Contexts;
 using Microsoft.OpenApi.Models;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,6 +21,9 @@ builder.Services.AddSwaggerGen(c =>
         Description = "Make a pizza menu",
         Version = "v1"
     });
+    var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+    var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+    c.IncludeXmlComments(xmlPath);
 });
 
 var app = builder.Build();
@@ -27,11 +31,9 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    
+    app.UseSwagger();
+    app.UseSwaggerUI();
 }
-
-app.UseSwagger();
-app.UseSwaggerUI();
 
 app.UseCors(builder => builder
 .AllowAnyHeader()

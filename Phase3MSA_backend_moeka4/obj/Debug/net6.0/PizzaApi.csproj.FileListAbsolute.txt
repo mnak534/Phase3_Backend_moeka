@@ -71,3 +71,5 @@ C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\Phase3MSA_backend_mo
 C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\Phase3MSA_backend_moeka4\bin\Debug\net6.0\Moq.dll
 C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\Phase3MSA_backend_moeka4\bin\Debug\net6.0\NSubstitute.dll
 C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\Phase3MSA_backend_moeka4\bin\Debug\net6.0\rgvlee.Core.Common.dll
+C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\Phase3MSA_backend_moeka4\bin\Debug\net6.0\PizzaApi.xml
+C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\Phase3MSA_backend_moeka4\obj\Debug\net6.0\PizzaApi.xml
