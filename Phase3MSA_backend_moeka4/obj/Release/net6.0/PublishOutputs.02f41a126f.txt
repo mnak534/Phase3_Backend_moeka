@@ -1,9 +1,13 @@
-C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\Phase3MSA_backend_moeka4\obj\Release\net6.0\PubTmp\Out\Phase3MSA_backend_moeka4.exe
+C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\Phase3MSA_backend_moeka4\obj\Release\net6.0\PubTmp\Out\PizzaApi.exe
 C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\Phase3MSA_backend_moeka4\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
 C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\Phase3MSA_backend_moeka4\obj\Release\net6.0\PubTmp\Out\appsettings.json
-C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\Phase3MSA_backend_moeka4\obj\Release\net6.0\PubTmp\Out\Phase3MSA_backend_moeka4.dll
-C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\Phase3MSA_backend_moeka4\obj\Release\net6.0\PubTmp\Out\Phase3MSA_backend_moeka4.runtimeconfig.json
-C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\Phase3MSA_backend_moeka4\obj\Release\net6.0\PubTmp\Out\Phase3MSA_backend_moeka4.pdb
+C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\Phase3MSA_backend_moeka4\obj\Release\net6.0\PubTmp\Out\PizzaApi.dll
+C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\Phase3MSA_backend_moeka4\obj\Release\net6.0\PubTmp\Out\PizzaApi.runtimeconfig.json
+C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\Phase3MSA_backend_moeka4\obj\Release\net6.0\PubTmp\Out\PizzaApi.pdb
+C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\Phase3MSA_backend_moeka4\obj\Release\net6.0\PubTmp\Out\Castle.Core.dll
+C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\Phase3MSA_backend_moeka4\obj\Release\net6.0\PubTmp\Out\EntityFrameworkCore.Testing.Common.dll
+C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\Phase3MSA_backend_moeka4\obj\Release\net6.0\PubTmp\Out\EntityFrameworkCore.Testing.Moq.dll
+C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\Phase3MSA_backend_moeka4\obj\Release\net6.0\PubTmp\Out\EntityFrameworkCore.Testing.NSubstitute.dll
 C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\Phase3MSA_backend_moeka4\obj\Release\net6.0\PubTmp\Out\Microsoft.Data.SqlClient.dll
 C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\Phase3MSA_backend_moeka4\obj\Release\net6.0\PubTmp\Out\Microsoft.EntityFrameworkCore.dll
 C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\Phase3MSA_backend_moeka4\obj\Release\net6.0\PubTmp\Out\Microsoft.EntityFrameworkCore.Abstractions.dll
@@ -19,6 +23,9 @@ C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\Phase3MSA_backend_mo
 C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\Phase3MSA_backend_moeka4\obj\Release\net6.0\PubTmp\Out\Microsoft.IdentityModel.Tokens.dll
 C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\Phase3MSA_backend_moeka4\obj\Release\net6.0\PubTmp\Out\Microsoft.OpenApi.dll
 C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\Phase3MSA_backend_moeka4\obj\Release\net6.0\PubTmp\Out\Microsoft.Win32.SystemEvents.dll
+C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\Phase3MSA_backend_moeka4\obj\Release\net6.0\PubTmp\Out\Moq.dll
+C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\Phase3MSA_backend_moeka4\obj\Release\net6.0\PubTmp\Out\NSubstitute.dll
+C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\Phase3MSA_backend_moeka4\obj\Release\net6.0\PubTmp\Out\rgvlee.Core.Common.dll
 C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\Phase3MSA_backend_moeka4\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\Phase3MSA_backend_moeka4\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\Phase3MSA_backend_moeka4\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -41,4 +48,8 @@ C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\Phase3MSA_backend_mo
 C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\Phase3MSA_backend_moeka4\obj\Release\net6.0\PubTmp\Out\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\Phase3MSA_backend_moeka4\obj\Release\net6.0\PubTmp\Out\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\Phase3MSA_backend_moeka4\obj\Release\net6.0\PubTmp\Out\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\Phase3MSA_backend_moeka4\obj\Release\net6.0\PubTmp\Out\Phase3MSA_backend_moeka4.deps.json
+C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\Phase3MSA_backend_moeka4\obj\Release\net6.0\PubTmp\Out\PizzaApi.Domain.dll
+C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\Phase3MSA_backend_moeka4\obj\Release\net6.0\PubTmp\Out\PizzaApi.Infrastructure.dll
+C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\Phase3MSA_backend_moeka4\obj\Release\net6.0\PubTmp\Out\PizzaApi.Infrastructure.pdb
+C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\Phase3MSA_backend_moeka4\obj\Release\net6.0\PubTmp\Out\PizzaApi.Domain.pdb
+C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\Phase3MSA_backend_moeka4\obj\Release\net6.0\PubTmp\Out\PizzaApi.deps.json
