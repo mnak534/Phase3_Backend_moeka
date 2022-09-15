@@ -154,3 +154,4 @@ C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\PizzaApi.UnitTests\o
 C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\PizzaApi.UnitTests\obj\Debug\net6.0\PizzaApi.UnitTests.pdb
 C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\PizzaApi.UnitTests\obj\Debug\net6.0\PizzaApi.UnitTests.genruntimeconfig.cache
 C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\PizzaApi.UnitTests\obj\Debug\net6.0\ref\PizzaApi.UnitTests.dll
+C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\PizzaApi.UnitTests\bin\Debug\net6.0\PizzaApi.xml
