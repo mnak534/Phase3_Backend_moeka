@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
-  <parameter name="IIS Web Application Name" description="" value="pizza-msaphase3" tags="IisApp">
+  <parameter name="IIS Web Application Name" description="" value="moekaPizzaStore" tags="IisApp">
     <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Moeka\ Nakane\\source\\repos\\Phase3MSA_backend_moeka4\\Phase3MSA_backend_moeka4\\obj\\Release\\net6\.0\\PubTmp\\Out\\$" />
   </parameter>
 </parameters>

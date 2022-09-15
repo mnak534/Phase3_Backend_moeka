@@ -4,7 +4,7 @@
     <_SelectedScaffolderID>ApiControllerEmptyScaffolder</_SelectedScaffolderID>
     <_SelectedScaffolderCategoryPath>root/Common/Api</_SelectedScaffolderCategoryPath>
     <ActiveDebugProfile>IIS Express</ActiveDebugProfile>
-    <NameOfLastUsedPublishProfile>C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\Phase3MSA_backend_moeka4\Properties\PublishProfiles\pizza-msaphase3 - Web Deploy1.pubxml</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>C:\Users\Moeka Nakane\source\repos\Phase3MSA_backend_moeka4\Phase3MSA_backend_moeka4\Properties\PublishProfiles\moekaPizzaStore - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>

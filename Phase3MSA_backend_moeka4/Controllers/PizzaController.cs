@@ -21,6 +21,7 @@ namespace PizzaApi.Controllers
         [HttpPost]
         public async Task<ActionResult<Pizza>> Create(Pizza pizza)
         {
+            //_context.addPizza(pizza);
             _context.PizzaMenu.Add(pizza);
             await _context.SaveChangesAsync();
 
